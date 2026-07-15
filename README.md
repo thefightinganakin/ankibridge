@@ -1,8 +1,6 @@
-# AnkiBridge — Anki Desktop Add-on
+# AnkiBridge — Secure Anki Desktop Connector Add-on
 
-Lets other devices connect to Anki Desktop over the local
-Wi-Fi network to fetch real decks and due cards, and to send review ratings back
-so AnkiBridge sessions count toward the user's actual Anki schedule.
+Lets other devices connect to Anki Desktop over the local Wi-Fi network with user per device approval. Allows other apps to fetch real decks and due cards, and to send review ratings back so AnkiBridge sessions count toward the user's actual Anki schedule.
 
 **Anki remains the source of truth.** This add-on records every rating through Anki's own scheduler, exactly as if the
 user pressed Again / Hard / Good / Easy in the Reviewer. Due dates are never
