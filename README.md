@@ -1,11 +1,10 @@
 # AnkiBridge — Anki Desktop Add-on
 
-Lets the AnkiBridge mobile app connect to Anki Desktop over the local
+Lets other devices connect to Anki Desktop over the local
 Wi-Fi network to fetch real decks and due cards, and to send review ratings back
 so AnkiBridge sessions count toward the user's actual Anki schedule.
 
-**Anki remains the source of truth.** AnkiBridge is a hands-free review client;
-this add-on records every rating through Anki's own scheduler, exactly as if the
+**Anki remains the source of truth.** This add-on records every rating through Anki's own scheduler, exactly as if the
 user pressed Again / Hard / Good / Easy in the Reviewer. Due dates are never
 edited by hand.
 
@@ -182,10 +181,7 @@ port) for phones to connect.
 
 ---
 
-## Not in scope
-
-Cloud relay, AnkiWeb integration, accounts, remote internet access,
-conflict resolution, multi-device sync, filtered decks.
+## mDNS
 
 mDNS auto-discovery (`_ankibridge._tcp.local.`) is implemented in
 `discovery.py` with a dependency-free pure-Python advertiser (PTR/SRV/TXT/A
